@@ -1,5 +1,3 @@
-// Link.js
-import React from 'react';
 
 const ExternalLink = ({ href, text, className }) => {
   return (

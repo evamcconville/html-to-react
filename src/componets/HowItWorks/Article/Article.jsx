@@ -1,5 +1,3 @@
-// Article.js
-import React from 'react';
 import styles from './Article.module.css';
 
 const Article = ({ imageSrc, altText, title, description }) => {

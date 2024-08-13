@@ -1,11 +1,10 @@
-// Footer.js
-import React from 'react';
+
 import styles from './Footer.module.css';
 import ExternalLink from './ExternalLink/ExternalLink';
 
 
 const Footer = () => {
-  // linksData.js
+
 const socialLinks = [
   {
     href: 'https://www.facebook.com',
@@ -20,6 +19,7 @@ const socialLinks = [
     text: 'TikTok',
   },
 ];
+
   return (
     <footer className={styles.footer}>
       <div className={styles.colunmsContainer}>
